@@ -38,7 +38,7 @@ def juego():
 while True:
     pais = paises.pais()
     largo = len(pais)
-    aciertos = [" "]
+    aciertos = []
     errores = []
     print(interfaz.guiones(pais,aciertos))
     while True:
