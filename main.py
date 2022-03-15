@@ -19,7 +19,7 @@ def juego():
 
 
     if ver == 1:
-        Findeljuego.findeljuegobueno()
+        Findeljuego.findeljuegobueno(pais)
         Findeljuego.contador(aciertos,errores)
         return (1)
 
